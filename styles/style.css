@@ -220,7 +220,7 @@
     
     .img-card {
         text-align: center;
-        width: 231px;
+        width: 240px;
     }
     
     .habits-title {
@@ -264,8 +264,8 @@
         font-size: 0.9rem;
         font-weight: 400;
         line-height: 18px;
-        letter-spacing: 0.3px;
         margin-top: 15px;
+        text-align: justify;
     }
     /* /* habits end here */
     /* run start here  */
@@ -331,10 +331,11 @@
         height: 500px;
         background: rgb(34, 34, 34);
     }
-    /* bmi section ends here */
     
     .bmi-calculator-container {
         padding: 50px 190px;
+        display: flex;
+        justify-content: space-between;
     }
     
     table {
@@ -362,6 +363,7 @@
         font-weight: 500;
         line-height: 120%;
         padding: 15px;
+        text-align: left;
     }
     
     td {
@@ -371,3 +373,11 @@
         line-height: 120%;
         padding: 15px;
     }
+    
+    .bmi-right h2 {
+        color: rgb(255, 255, 255);
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 120%;
+    }
+    /* bmi section ends here */
