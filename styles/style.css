@@ -1,0 +1,328 @@
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    @font-face {
+        font-family: Miama;
+        src: url(../fonts/Miama.ttf);
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: "Inter", sans-serif;
+        background-color: black;
+    }
+    /* navbar start here */
+    
+    .header-color {
+        background-repeat: no-repeat;
+        padding: 57px 190px;
+    }
+    
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-title {
+        font-size: 2.25rem;
+        font-weight: 800;
+        color: rgb(230, 83, 60);
+        font-style: italic;
+    }
+    
+    .nav-link {
+        display: flex;
+        gap: 47px;
+        border: 1px solid rgba(211, 210, 210, 0.3);
+        border-radius: 39px;
+    }
+    
+    .nav-link li {
+        list-style: none;
+        padding: 12px 20px;
+    }
+    
+    .nav-link li a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: white;
+    }
+    
+    .primary-btn {
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding: 8px 20px;
+        border-radius: 46px;
+        background: rgb(230, 83, 60);
+        color: white
+    }
+    
+    .nav-link .home {
+        margin-left: -15px;
+        cursor: pointer;
+    }
+    /* navbar ends here */
+    /* banner part start  */
+    
+    .banner-container {
+        display: flex;
+        padding: 0px 190px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .banner-title {
+        color: rgb(255, 255, 255);
+        font-size: 5rem;
+        font-weight: 900;
+        line-height: 110%;
+    }
+    
+    .banner-desc {
+        margin-top: 28px;
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .special {
+        font-family: Miama;
+        font-size: 9rem;
+        font-weight: 400;
+    }
+    
+    .pair-btn {
+        margin-top: 30px;
+    }
+    
+    .join-btn {
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding: 16px 40px;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .download-btn {
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding: 16px 40px;
+        border-radius: 42px;
+        background-color: transparent;
+        color: #FFFFFF;
+        border: none;
+        margin-left: 14px;
+        border: 2px solid white;
+        cursor: pointer;
+    }
+    
+    .banner-img img {
+        width: 100%;
+    }
+    
+    .banner-img {
+        margin-right: 90px;
+    }
+    
+    .card-one {
+        border: 1px solid white;
+        position: absolute;
+        width: 150px;
+        left: 1107px;
+        top: 280px;
+        padding: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+    
+    .card-title {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 40px;
+        letter-spacing: 1px;
+        text-align: left;
+    }
+    
+    .card-desc {
+        color: rgba(255, 255, 255, 0.65);
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 1px;
+        text-align: left;
+        margin-top: 5px;
+    }
+    
+    .card-two {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        background: rgba(48, 48, 48, 0.54);
+        padding: 20px;
+        position: absolute;
+        left: 764px;
+        top: 585px;
+    }
+    
+    .card-left {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: rgb(230, 83, 60);
+    }
+    
+    .card-right h2 {
+        color: rgb(250, 250, 249);
+        font-size: 1.5rem;
+        font-weight: 900;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: left;
+    }
+    
+    .card-right p {
+        color: rgba(239, 237, 232, 0.65);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        text-align: left;
+    }
+    /* banner part end  */
+    /* habits start here  */
+    
+    .top {
+        margin-top: 100px;
+    }
+    
+    .habits-container {
+        padding: 0px 190px;
+    }
+    
+    .habits-img {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .img-card {
+        text-align: center;
+        width: 231px;
+    }
+    
+    .habits-title {
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        text-align: center;
+    }
+    
+    .habits-desc {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    .img-card img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    
+    .img-title {
+        color: rgb(255, 255, 255);
+        font-size: 1.2rem;
+        font-weight: 600;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    .img-desc {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.3px;
+        margin-top: 15px;
+    }
+    /* /* habits end here */
+    /* run start here  */
+    
+    .run-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 100px 190px 0px 190px;
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        height: 371px;
+    }
+    
+    .run-content {
+        padding: 45px 54px;
+    }
+    
+    .run-content h2 {
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+        font-weight: 900;
+        line-height: 120%;
+    }
+    
+    .run-content p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 15px;
+    }
+    
+    .run-content button {
+        margin-top: 25px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding: 10px 40px;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .run-img {
+        margin: auto auto;
+        margin-right: 30px;
+    }
+    
+    .run-img img {
+        width: 100%;
+        border-radius: 18px;
+    }
+    /* run ends here  */
+    /* bmi section start here */
+    
+    .bmi-container {
+        margin-top: 100px;
+    }
+    /* bmi section ends here */
