@@ -276,7 +276,7 @@
         margin: 100px 190px 0px 190px;
         border-radius: 18px;
         background: rgb(34, 34, 34);
-        height: 371px;
+        height: 385px;
     }
     
     .run-content {
@@ -328,7 +328,7 @@
     
     .bmi-calculator-container {
         margin-top: 90px;
-        height: 500px;
+        height: 330px;
         background: rgb(34, 34, 34);
     }
     
@@ -409,6 +409,26 @@
     }
     
     .select {
-        width: 186px;
+        width: 184px;
+        color: gray;
+        font-size: 16px;
+    }
+    
+    .long {
+        width: 370px;
+        color: gray;
+        font-size: 16px;
+    }
+    
+    .bmi-right button {
+        margin-top: 25px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding: 10px 40px;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
     }
     /* bmi section ends here */
