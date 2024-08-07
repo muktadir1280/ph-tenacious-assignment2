@@ -325,4 +325,49 @@
     .bmi-container {
         margin-top: 100px;
     }
+    
+    .bmi-calculator-container {
+        margin-top: 90px;
+        height: 500px;
+        background: rgb(34, 34, 34);
+    }
     /* bmi section ends here */
+    
+    .bmi-calculator-container {
+        padding: 50px 190px;
+    }
+    
+    table {
+        width: 310px;
+        margin-top: 40px;
+    }
+    
+    table,
+    td,
+    th {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-collapse: collapse;
+    }
+    
+    .bmi-left h2 {
+        color: rgb(255, 255, 255);
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 120%;
+    }
+    
+    th {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 120%;
+        padding: 15px;
+    }
+    
+    td {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 120%;
+        padding: 15px;
+    }
