@@ -244,6 +244,7 @@
     }
     
     .img-card img {
+        border: 2px solid #d2cece;
         height: 200px;
         width: 200px;
         border-radius: 50%;
@@ -666,12 +667,10 @@
         }
         .join-btn {
             font-size: 1rem;
-            font-weight: 600;
             padding: 16px 35px;
         }
         .download-btn {
             font-size: 1rem;
-            font-weight: 600;
             padding: 16px 35px;
         }
         .banner-img {
@@ -696,12 +695,6 @@
             border-radius: 10px;
             padding: 10px;
         }
-        .card-left {
-            height: 40px;
-            width: 40px;
-            border-radius: 50%;
-            background: rgb(230, 83, 60);
-        }
         .card-right h2 {
             font-size: 1.25rem;
         }
@@ -709,4 +702,34 @@
             font-size: 0.75rem;
         }
         /* banner part end  */
+        /* habits start here  */
+        .top {
+            margin-top: 5px;
+        }
+        .habits-container {
+            padding: 0px 20px;
+        }
+        .habits-title {
+            font-size: 2.4rem;
+        }
+        .habits-desc {
+            margin-top: 20px;
+        }
+        .habits-img {
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .img-card {
+            margin-top: 30px;
+        }
+        .img-title {
+            margin-top: 20px;
+        }
+        .img-desc {
+            margin-top: 10px;
+        }
+        /* /* habits end here */
     }
