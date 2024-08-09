@@ -265,7 +265,7 @@
         font-weight: 400;
         line-height: 18px;
         margin-top: 15px;
-        text-align: justify;
+        text-align: center;
     }
     /* /* habits end here */
     /* run start here  */
@@ -400,24 +400,28 @@
         border-radius: 8px;
         border-style: none;
         background: rgba(255, 255, 255, 0.1);
-        margin: 8px 0px;
+        margin: 8px 4px;
     }
     
     input::placeholder {
-        font-size: 16px;
+        font-size: 0.9rem;
         font-weight: 400;
     }
     
     .select {
-        width: 184px;
         color: gray;
-        font-size: 16px;
+        font-size: 0.9rem;
+        width: 182.4px;
+        height: 36px;
+        border-right: 10px solid transparent;
     }
     
     .long {
-        width: 370px;
+        width: 378px;
+        height: 36px;
         color: gray;
-        font-size: 16px;
+        font-size: 0.9rem;
+        border-right: 10px solid transparent;
     }
     
     .bmi-right button {
@@ -616,3 +620,6 @@
         letter-spacing: 0.3px;
     }
     /* footer section ends here */
+    /* responsive media query */
+    
+    @media screen {}
