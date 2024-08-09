@@ -620,6 +620,93 @@
         letter-spacing: 0.3px;
     }
     /* footer section ends here */
+    
+    .menu-bar {
+        display: none;
+    }
     /* responsive media query */
     
-    @media screen {}
+    @media screen and (max-width: 576px) {
+        .hide {
+            display: none;
+        }
+        /* navbar start here */
+        .menu-bar {
+            color: white;
+            display: block;
+        }
+        .menu-bar i {
+            font-size: 20px;
+        }
+        .header-color {
+            padding: 52px 20px;
+        }
+        .nav-link {
+            display: none
+        }
+        /* navbar ends here */
+        /* banner part start  */
+        .banner-container {
+            display: flex;
+            flex-direction: column;
+            padding: 0px 20px;
+        }
+        .banner-title {
+            font-size: 2.25rem;
+            font-weight: 900;
+            line-height: 120%;
+        }
+        .special {
+            font-size: 4rem;
+            font-weight: 500;
+        }
+        .pair-btn {
+            display: flex;
+            justify-content: space-between;
+        }
+        .join-btn {
+            font-size: 1rem;
+            font-weight: 600;
+            padding: 16px 35px;
+        }
+        .download-btn {
+            font-size: 1rem;
+            font-weight: 600;
+            padding: 16px 35px;
+        }
+        .banner-img {
+            margin: 30px 20px;
+        }
+        .card-one {
+            left: 55%;
+            top: 172%;
+            width: 140px;
+            padding: 10px 10px;
+            border-radius: 10px;
+        }
+        .card-title {
+            font-size: 1.75rem;
+        }
+        .card-desc {
+            font-size: 0.75rem;
+        }
+        .card-two {
+            border-radius: 10px;
+            padding: 10px;
+            left: 25%;
+            top: 233%;
+        }
+        .card-left {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background: rgb(230, 83, 60);
+        }
+        .card-right h2 {
+            font-size: 1.25rem;
+        }
+        .card-right p {
+            font-size: 0.75rem;
+        }
+        /* banner part end  */
+    }
