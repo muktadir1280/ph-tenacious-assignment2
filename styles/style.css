@@ -666,7 +666,7 @@ p.footer-desc {
 
 /* responsive media query */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
     .hide {
         display: none;
     }
@@ -749,7 +749,7 @@ p.footer-desc {
         padding: 0px 20px;
     }
     .habits-title {
-        font-size: 2.4rem;
+        font-size: 2.1rem;
     }
     .habits-desc {
         margin-top: 20px;
@@ -825,6 +825,7 @@ p.footer-desc {
     }
     .bmi-right {
         margin-top: 50px;
+        width: auto;
     }
     .bmi-right button {
         margin-top: 25px;
