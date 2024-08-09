@@ -825,7 +825,7 @@ p.footer-desc {
     }
     .bmi-right {
         margin-top: 50px;
-        width: auto;
+        width: 400px;
     }
     .bmi-right button {
         margin-top: 25px;
@@ -885,7 +885,7 @@ p.footer-desc {
     p.footer-desc {
         width: auto;
         font-size: 0.9rem;
-        text-align: justify;
+        text-align: left;
     }
     .footer-left {
         margin-top: 40px;
