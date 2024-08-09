@@ -626,7 +626,7 @@
     }
     /* responsive media query */
     
-    @media screen and (max-width: 576px) {
+    @media screen and (max-width: 600px) {
         .hide {
             display: none;
         }
@@ -678,8 +678,8 @@
             margin: 30px 20px;
         }
         .card-one {
-            left: 55%;
-            top: 172%;
+            left: 240px;
+            top: 570px;
             width: 140px;
             padding: 10px 10px;
             border-radius: 10px;
@@ -691,10 +691,10 @@
             font-size: 0.75rem;
         }
         .card-two {
+            left: 110px;
+            top: 770px;
             border-radius: 10px;
             padding: 10px;
-            left: 25%;
-            top: 233%;
         }
         .card-left {
             height: 40px;
