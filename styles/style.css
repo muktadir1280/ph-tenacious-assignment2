@@ -1,831 +1,905 @@
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-    @font-face {
-        font-family: Miama;
-        src: url(../fonts/Miama.ttf);
-    }
-    
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    body {
-        font-family: "Inter", sans-serif;
-        background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@font-face {
+    font-family: Miama;
+    src: url(../fonts/Miama.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+
+
+/* navbar start here */
+
+.header-color {
+    background-repeat: no-repeat;
+    padding: 57px 190px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+}
+
+.nav-link {
+    display: flex;
+    gap: 47px;
+    border: 1px solid rgba(211, 210, 210, 0.3);
+    border-radius: 39px;
+}
+
+.nav-link li {
+    list-style: none;
+    padding: 12px 20px;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+}
+
+.primary-btn {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    color: white
+}
+
+.nav-link .home {
+    margin-left: -15px;
+    cursor: pointer;
+}
+
+
+/* navbar ends here */
+
+
+/* banner part start  */
+
+.banner-container {
+    display: flex;
+    padding: 0px 190px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 110%;
+}
+
+.banner-desc {
+    margin-top: 28px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.special {
+    font-family: Miama;
+    font-size: 9rem;
+    font-weight: 400;
+}
+
+.pair-btn {
+    margin-top: 30px;
+}
+
+.join-btn {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.download-btn {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 14px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-img {
+    margin-right: 90px;
+}
+
+.card-one {
+    border: 1px solid white;
+    position: absolute;
+    width: 150px;
+    left: 1107px;
+    top: 280px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.card-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.card-desc {
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.card-two {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(48, 48, 48, 0.54);
+    padding: 20px;
+    position: absolute;
+    left: 764px;
+    top: 585px;
+}
+
+.card-left {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+}
+
+.card-right h2 {
+    color: rgb(250, 250, 249);
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.card-right p {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+
+/* banner part end  */
+
+
+/* habits start here  */
+
+.top {
+    margin-top: 100px;
+}
+
+.habits-container {
+    padding: 0px 190px;
+}
+
+.habits-img {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-card {
+    text-align: center;
+    width: 240px;
+}
+
+.habits-title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-align: center;
+}
+
+.habits-desc {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.img-card img {
+    border: 2px solid #d2cece;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.img-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.img-desc {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+/* /* habits end here */
+
+
+/* run start here  */
+
+.run-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 190px 0px 190px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    height: 385px;
+}
+
+.run-content {
+    padding: 45px 54px;
+}
+
+.run-content h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.run-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+.run-content button {
+    margin-top: 25px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.run-img {
+    margin: auto auto;
+    margin-right: 30px;
+}
+
+.run-img img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+
+/* run ends here  */
+
+
+/* bmi section start here */
+
+.bmi-container {
+    margin-top: 100px;
+}
+
+.bmi-calculator-container {
+    margin-top: 90px;
+    height: 330px;
+    background: rgb(34, 34, 34);
+}
+
+.bmi-calculator-container {
+    padding: 50px 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    width: 310px;
+    margin-top: 40px;
+}
+
+table,
+td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+
+.bmi-left h2 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+th {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    padding: 15px;
+    text-align: left;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    padding: 15px;
+}
+
+.bmi-right {
+    width: 550px;
+}
+
+.bmi-right h2 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.bmi-right p {
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.form-container {
+    margin-top: 15px;
+}
+
+input,
+select {
+    padding: 10px;
+    border-radius: 8px;
+    border-style: none;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 8px 4px;
+}
+
+input::placeholder {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.select {
+    color: gray;
+    font-size: 0.9rem;
+    width: 182.4px;
+    height: 36px;
+    border-right: 10px solid transparent;
+}
+
+.long {
+    width: 378px;
+    height: 36px;
+    color: gray;
+    font-size: 0.9rem;
+    border-right: 10px solid transparent;
+}
+
+.bmi-right button {
+    margin-top: 25px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* bmi section ends here */
+
+
+/* meet our team start here */
+
+.team-container {
+    margin-top: 100px;
+}
+
+.team-content {
+    margin: 60px 190px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.team-card {
+    width: 326px;
+    height: 272px;
+    padding: 20px;
+    position: relative;
+}
+
+.team-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+.team-card h2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.team-title {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+
+.team-card p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.team-desc {
+    position: absolute;
+    top: 83%;
+    left: 10%;
+}
+
+
+/* meet our team ends here */
+
+
+/* special section start here */
+
+.special-container {
+    margin: 100px 190px;
+}
+
+.card-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    height: 250px;
+    background-color: #0d0d0d;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.card h2 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card li {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.card p {
+    margin-top: 25px;
+}
+
+.card button {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* special section ends here */
+
+
+/* footer section start here */
+
+.footer-container {
+    height: 450px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-content {
+    margin: 0px 190px;
+    padding-top: 66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-merge {
+    display: flex;
+    gap: 150px;
+}
+
+.footer-title {
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 120%;
+    font-style: italic;
+}
+
+p.footer-desc {
+    width: 500px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 0.9rem;
+}
+
+.footer-right h2 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.footer-left h2 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.footer-merge li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer-merge a {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 120%;
+    text-decoration: none;
+}
+
+.line {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 1060px;
+    margin: 50px auto;
+}
+
+.owner {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+
+/* footer section ends here */
+
+.menu-bar {
+    display: none;
+}
+
+
+/* responsive media query */
+
+@media screen and (max-width: 600px) {
+    .hide {
+        display: none;
     }
     /* navbar start here */
-    
-    .header-color {
-        background-repeat: no-repeat;
-        padding: 57px 190px;
-    }
-    
-    .nav-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .nav-title {
-        font-size: 2.25rem;
-        font-weight: 800;
-        color: rgb(230, 83, 60);
-        font-style: italic;
-    }
-    
-    .nav-link {
-        display: flex;
-        gap: 47px;
-        border: 1px solid rgba(211, 210, 210, 0.3);
-        border-radius: 39px;
-    }
-    
-    .nav-link li {
-        list-style: none;
-        padding: 12px 20px;
-    }
-    
-    .nav-link li a {
-        text-decoration: none;
-        font-size: 1.2rem;
-        font-weight: 400;
+    .menu-bar {
         color: white;
+        display: block;
     }
-    
-    .primary-btn {
-        font-size: 1.2rem;
-        font-weight: 600;
-        padding: 8px 20px;
-        border-radius: 46px;
-        background: rgb(230, 83, 60);
-        color: white
+    .menu-bar i {
+        font-size: 20px;
     }
-    
-    .nav-link .home {
-        margin-left: -15px;
-        cursor: pointer;
+    .header-color {
+        padding: 52px 20px;
+    }
+    .nav-link {
+        display: none
     }
     /* navbar ends here */
     /* banner part start  */
-    
     .banner-container {
         display: flex;
-        padding: 0px 190px;
-        align-items: center;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    .banner-title {
+        font-size: 2.25rem;
+        font-weight: 900;
+        line-height: 120%;
+    }
+    .special {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+    .pair-btn {
+        display: flex;
         justify-content: space-between;
     }
-    
-    .banner-title {
-        color: rgb(255, 255, 255);
-        font-size: 5rem;
-        font-weight: 900;
-        line-height: 110%;
-    }
-    
-    .banner-desc {
-        margin-top: 28px;
-        font-size: 1rem;
-        color: rgba(255, 255, 255, 0.5);
-    }
-    
-    .special {
-        font-family: Miama;
-        font-size: 9rem;
-        font-weight: 400;
-    }
-    
-    .pair-btn {
-        margin-top: 30px;
-    }
-    
     .join-btn {
-        font-size: 1.2rem;
-        font-weight: 600;
-        padding: 16px 40px;
-        border-radius: 42px;
-        background: rgb(230, 83, 60);
-        color: #FFFFFF;
-        border: none;
-        cursor: pointer;
-    }
-    
-    .download-btn {
-        font-size: 1.2rem;
-        font-weight: 600;
-        padding: 16px 40px;
-        border-radius: 42px;
-        background-color: transparent;
-        color: #FFFFFF;
-        border: none;
-        margin-left: 14px;
-        border: 2px solid white;
-        cursor: pointer;
-    }
-    
-    .banner-img img {
-        width: 100%;
-    }
-    
-    .banner-img {
-        margin-right: 90px;
-    }
-    
-    .card-one {
-        border: 1px solid white;
-        position: absolute;
-        width: 150px;
-        left: 1107px;
-        top: 280px;
-        padding: 20px;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 12px;
-        background: rgba(255, 255, 255, 0.1);
-    }
-    
-    .card-title {
-        color: rgb(255, 255, 255);
-        font-family: Inter;
-        font-size: 40px;
-        font-weight: 900;
-        line-height: 40px;
-        letter-spacing: 1px;
-        text-align: left;
-    }
-    
-    .card-desc {
-        color: rgba(255, 255, 255, 0.65);
-        font-family: Inter;
-        font-size: 13px;
-        font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 1px;
-        text-align: left;
-        margin-top: 5px;
-    }
-    
-    .card-two {
-        display: flex;
-        gap: 15px;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 12px;
-        background: rgba(48, 48, 48, 0.54);
-        padding: 20px;
-        position: absolute;
-        left: 764px;
-        top: 585px;
-    }
-    
-    .card-left {
-        height: 40px;
-        width: 40px;
-        border-radius: 50%;
-        background: rgb(230, 83, 60);
-    }
-    
-    .card-right h2 {
-        color: rgb(250, 250, 249);
-        font-size: 1.5rem;
-        font-weight: 900;
-        line-height: 24px;
-        letter-spacing: 0.3px;
-        text-align: left;
-    }
-    
-    .card-right p {
-        color: rgba(239, 237, 232, 0.65);
         font-size: 1rem;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.5px;
-        text-align: left;
+        padding: 16px 35px;
+    }
+    .download-btn {
+        font-size: 1rem;
+        padding: 16px 35px;
+    }
+    .banner-img {
+        margin: 30px 20px;
+    }
+    .card-one {
+        left: 240px;
+        top: 570px;
+        width: 140px;
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+    .card-title {
+        font-size: 1.75rem;
+    }
+    .card-desc {
+        font-size: 0.75rem;
+    }
+    .card-two {
+        left: 110px;
+        top: 770px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .card-right h2 {
+        font-size: 1.25rem;
+    }
+    .card-right p {
+        font-size: 0.75rem;
     }
     /* banner part end  */
     /* habits start here  */
-    
     .top {
-        margin-top: 100px;
+        margin-top: 5px;
     }
-    
     .habits-container {
-        padding: 0px 190px;
+        padding: 0px 20px;
     }
-    
-    .habits-img {
-        margin-top: 70px;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .img-card {
-        text-align: center;
-        width: 240px;
-    }
-    
     .habits-title {
-        color: rgb(255, 255, 255);
-        font-size: 3rem;
-        font-weight: 900;
-        line-height: 120%;
-        letter-spacing: 0%;
-        text-align: left;
-        text-align: center;
+        font-size: 2.4rem;
     }
-    
     .habits-desc {
-        color: rgba(255, 255, 255, 0.5);
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.3px;
-        text-align: center;
-        margin-top: 15px;
+        margin-top: 20px;
     }
-    
-    .img-card img {
-        border: 2px solid #d2cece;
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;
+    .habits-img {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    
+    .img-card {
+        margin-top: 30px;
+    }
     .img-title {
-        color: rgb(255, 255, 255);
-        font-size: 1.2rem;
-        font-weight: 600;
-        line-height: 120%;
-        letter-spacing: 0%;
-        text-align: center;
-        margin-top: 25px;
+        margin-top: 20px;
     }
-    
     .img-desc {
-        color: rgba(255, 255, 255, 0.5);
-        font-size: 0.9rem;
-        font-weight: 400;
-        line-height: 18px;
-        margin-top: 15px;
-        text-align: center;
+        margin-top: 10px;
     }
     /* /* habits end here */
     /* run start here  */
-    
     .run-container {
         display: flex;
-        justify-content: space-between;
-        margin: 100px 190px 0px 190px;
-        border-radius: 18px;
-        background: rgb(34, 34, 34);
-        height: 385px;
+        flex-direction: column;
+        margin: 60px 20px 0px 20px;
+        height: auto;
     }
-    
     .run-content {
         padding: 45px 54px;
     }
-    
     .run-content h2 {
-        color: rgb(255, 255, 255);
-        font-size: 3rem;
-        font-weight: 900;
-        line-height: 120%;
+        font-size: 2rem;
     }
-    
-    .run-content p {
-        color: rgba(255, 255, 255, 0.5);
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 24px;
-        margin-top: 15px;
-    }
-    
-    .run-content button {
-        margin-top: 25px;
-        font-size: 1.2rem;
-        font-weight: 600;
-        padding: 10px 40px;
-        border-radius: 42px;
-        background: rgb(230, 83, 60);
-        color: #FFFFFF;
-        border: none;
-        cursor: pointer;
-    }
-    
     .run-img {
-        margin: auto auto;
-        margin-right: 30px;
+        display: block;
+        margin: 0px auto;
+        padding: 20px;
     }
-    
     .run-img img {
         width: 100%;
         border-radius: 18px;
     }
+    .run-content button {
+        margin-top: 35px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 16px 85px;
+        border-radius: 42px;
+        line-height: 22px;
+    }
     /* run ends here  */
     /* bmi section start here */
-    
     .bmi-container {
-        margin-top: 100px;
+        margin-top: 70px;
     }
-    
-    .bmi-calculator-container {
-        margin-top: 90px;
-        height: 330px;
-        background: rgb(34, 34, 34);
+    .habits-content {
+        margin: 0px 20px;
     }
-    
-    .bmi-calculator-container {
-        padding: 50px 190px;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    table {
-        width: 310px;
-        margin-top: 40px;
-    }
-    
-    table,
-    td,
-    th {
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-collapse: collapse;
-    }
-    
-    .bmi-left h2 {
-        color: rgb(255, 255, 255);
-        font-size: 28px;
-        font-weight: 900;
-        line-height: 120%;
-    }
-    
-    th {
-        color: rgb(255, 255, 255);
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 120%;
-        padding: 15px;
+    .habits-content h2 {
         text-align: left;
     }
-    
-    td {
-        color: rgba(255, 255, 255, 0.5);
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 120%;
-        padding: 15px;
+    .habits-content p {
+        text-align: left;
     }
-    
-    .bmi-right h2 {
-        color: rgb(255, 255, 255);
-        font-size: 28px;
-        font-weight: 900;
-        line-height: 120%;
+    .bmi-calculator-container {
+        margin-top: 50px;
+        height: auto;
     }
-    
-    .bmi-right p {
-        margin-top: 15px;
-        color: rgba(255, 255, 255, 0.5);
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.3px;
+    .bmi-calculator-container {
+        padding: 35px 20px;
+        flex-direction: column;
     }
-    
-    .form-container {
-        margin-top: 15px;
+    .bmi-right {
+        margin-top: 50px;
     }
-    
-    input,
-    select {
-        padding: 10px;
-        border-radius: 8px;
-        border-style: none;
-        background: rgba(255, 255, 255, 0.1);
-        margin: 8px 4px;
-    }
-    
-    input::placeholder {
-        font-size: 0.9rem;
-        font-weight: 400;
-    }
-    
-    .select {
-        color: gray;
-        font-size: 0.9rem;
-        width: 182.4px;
-        height: 36px;
-        border-right: 10px solid transparent;
-    }
-    
-    .long {
-        width: 378px;
-        height: 36px;
-        color: gray;
-        font-size: 0.9rem;
-        border-right: 10px solid transparent;
-    }
-    
     .bmi-right button {
         margin-top: 25px;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         font-weight: 600;
-        padding: 10px 40px;
+        padding: 16px 80px;
         border-radius: 42px;
-        background: rgb(230, 83, 60);
-        color: #FFFFFF;
-        border: none;
-        cursor: pointer;
     }
     /* bmi section ends here */
     /* meet our team start here */
-    
     .team-container {
-        margin-top: 100px;
+        margin-top: 70px;
     }
-    
+    .habits-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .habits-content p {
+        text-align: center;
+    }
     .team-content {
-        margin: 60px 190px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        border-radius: 18px;
-        background: rgba(255, 255, 255, 0.1);
+        margin: 50px 20px;
+        grid-template-columns: repeat(1, 1fr);
     }
-    
     .team-card {
-        width: 326px;
-        height: 272px;
-        padding: 20px;
-        position: relative;
-    }
-    
-    .team-card img {
-        width: 100%;
-        height: 100%;
-        border-radius: 18px;
-    }
-    
-    .team-card h2 {
-        color: rgb(255, 255, 255);
-        font-size: 1.2rem;
-        font-weight: 900;
-        line-height: 120%;
-    }
-    
-    .team-title {
-        position: absolute;
-        top: 75%;
-        left: 10%;
-    }
-    
-    .team-card p {
-        color: rgba(255, 255, 255, 0.5);
-        font-size: 0.9rem;
-        font-weight: 400;
-        line-height: 120%;
-    }
-    
-    .team-desc {
-        position: absolute;
-        top: 83%;
-        left: 10%;
+        margin: 0px auto;
     }
     /* meet our team ends here */
     /* special section start here */
-    
     .special-container {
-        margin: 100px 190px;
+        margin: 70px 20px;
     }
-    
     .card-container {
-        margin-top: 60px;
-        display: flex;
-        justify-content: space-between;
-        border-radius: 18px;
-        padding: 20px;
+        margin: 40px auto;
+        flex-direction: column;
     }
-    
     .card {
-        width: 300px;
-        height: 250px;
-        background-color: #0d0d0d;
-        border-radius: 10px;
-        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        padding: 20px;
-    }
-    
-    .card h2 {
-        color: white;
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-    }
-    
-    .card li {
-        color: rgba(255, 255, 255, 0.5);
-        font-size: 0.8rem;
-        margin-bottom: 20px;
-        list-style: none;
-        margin-top: 10px;
-    }
-    
-    .card p {
-        margin-top: 25px;
-    }
-    
-    .card button {
-        font-size: 1.2rem;
-        font-weight: 600;
-        padding: 10px 40px;
-        border-radius: 42px;
-        background: rgb(230, 83, 60);
-        color: #FFFFFF;
-        border: none;
-        cursor: pointer;
+        margin-top: 30px;
     }
     /* special section ends here */
     /* footer section start here */
-    
     .footer-container {
-        height: 450px;
-        background: rgba(255, 255, 255, 0.1);
+        height: auto;
     }
-    
     .footer-content {
-        margin: 0px 190px;
-        padding-top: 66px;
-        display: flex;
-        justify-content: space-between;
+        margin: 0px 20px;
+        padding-top: 60px;
+        flex-direction: column;
     }
-    
     .footer-merge {
         display: flex;
-        gap: 150px;
+        flex-direction: column;
+        gap: 50px;
     }
-    
-    .footer-title {
-        color: rgb(230, 83, 60);
-        font-size: 70px;
-        font-weight: 800;
-        line-height: 120%;
-        font-style: italic;
-    }
-    
-    .footer-desc {
-        color: rgba(255, 255, 255, 0.5);
+    p.footer-desc {
+        width: auto;
         font-size: 0.9rem;
-        font-weight: 400;
-        line-height: 18px;
-        margin-top: 15px;
         text-align: justify;
     }
-    
-    .footer-right h2 {
-        color: rgb(255, 255, 255);
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 120%;
+    .footer-left {
+        margin-top: 40px;
     }
-    
-    .footer-left h2 {
-        color: rgb(255, 255, 255);
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 120%;
+    .footer-right {
+        margin-top: 40px;
     }
-    
-    .footer-merge li {
-        list-style: none;
-        margin-top: 20px;
-    }
-    
-    .footer-merge a {
-        color: rgba(255, 255, 255, 0.5);
-        font-size: 1.2rem;
-        font-weight: 400;
-        line-height: 120%;
-        text-decoration: none;
-    }
-    
     .line {
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        width: 1060px;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        width: 350px;
         margin: 50px auto;
     }
-    
     .owner {
-        text-align: center;
-        color: rgba(255, 255, 255, 0.5);
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.3px;
+        width: 350px;
+        margin: 0px auto;
     }
     /* footer section ends here */
-    
-    .menu-bar {
-        display: none;
-    }
-    /* responsive media query */
-    
-    @media screen and (max-width: 600px) {
-        .hide {
-            display: none;
-        }
-        /* navbar start here */
-        .menu-bar {
-            color: white;
-            display: block;
-        }
-        .menu-bar i {
-            font-size: 20px;
-        }
-        .header-color {
-            padding: 52px 20px;
-        }
-        .nav-link {
-            display: none
-        }
-        /* navbar ends here */
-        /* banner part start  */
-        .banner-container {
-            display: flex;
-            flex-direction: column;
-            padding: 0px 20px;
-        }
-        .banner-title {
-            font-size: 2.25rem;
-            font-weight: 900;
-            line-height: 120%;
-        }
-        .special {
-            font-size: 4rem;
-            font-weight: 500;
-        }
-        .pair-btn {
-            display: flex;
-            justify-content: space-between;
-        }
-        .join-btn {
-            font-size: 1rem;
-            padding: 16px 35px;
-        }
-        .download-btn {
-            font-size: 1rem;
-            padding: 16px 35px;
-        }
-        .banner-img {
-            margin: 30px 20px;
-        }
-        .card-one {
-            left: 240px;
-            top: 570px;
-            width: 140px;
-            padding: 10px 10px;
-            border-radius: 10px;
-        }
-        .card-title {
-            font-size: 1.75rem;
-        }
-        .card-desc {
-            font-size: 0.75rem;
-        }
-        .card-two {
-            left: 110px;
-            top: 770px;
-            border-radius: 10px;
-            padding: 10px;
-        }
-        .card-right h2 {
-            font-size: 1.25rem;
-        }
-        .card-right p {
-            font-size: 0.75rem;
-        }
-        /* banner part end  */
-        /* habits start here  */
-        .top {
-            margin-top: 5px;
-        }
-        .habits-container {
-            padding: 0px 20px;
-        }
-        .habits-title {
-            font-size: 2.4rem;
-        }
-        .habits-desc {
-            margin-top: 20px;
-        }
-        .habits-img {
-            margin-top: 40px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .img-card {
-            margin-top: 30px;
-        }
-        .img-title {
-            margin-top: 20px;
-        }
-        .img-desc {
-            margin-top: 10px;
-        }
-        /* /* habits end here */
-        /* run start here  */
-        .run-container {
-            display: flex;
-            flex-direction: column;
-            margin: 60px 20px 0px 20px;
-            height: auto;
-        }
-        .run-content {
-            padding: 45px 54px;
-        }
-        .run-content h2 {
-            font-size: 2rem;
-        }
-        .run-img {
-            display: block;
-            margin: 0px auto;
-            padding: 20px;
-        }
-        .run-img img {
-            width: 100%;
-            border-radius: 18px;
-        }
-        .run-content button {
-            margin-top: 35px;
-            font-size: 1.5rem;
-            font-weight: 600;
-            padding: 16px 85px;
-            border-radius: 42px;
-            line-height: 22px;
-        }
-        /* run ends here  */
-        /* bmi section start here */
-        .bmi-container {
-            margin-top: 70px;
-        }
-        .habits-content {
-            margin: 0px 20px;
-        }
-        .habits-content h2 {
-            text-align: left;
-        }
-        .habits-content p {
-            text-align: left;
-        }
-        .bmi-calculator-container {
-            margin-top: 50px;
-            height: auto;
-        }
-        .bmi-calculator-container {
-            padding: 35px 20px;
-            flex-direction: column;
-        }
-        .bmi-right {
-            margin-top: 50px;
-        }
-        .bmi-right button {
-            margin-top: 25px;
-            font-size: 1.4rem;
-            font-weight: 600;
-            padding: 16px 80px;
-            border-radius: 42px;
-        }
-        /* bmi section ends here */
-        /* meet our team start here */
-        .team-container {
-            margin-top: 70px;
-        }
-        .habits-content {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .habits-content p {
-            text-align: center;
-        }
-        .team-content {
-            margin: 50px 20px;
-            grid-template-columns: repeat(1, 1fr);
-        }
-        .team-card {
-            margin: 0px auto;
-        }
-        /* meet our team ends here */
-        /* special section start here */
-        .special-container {
-            margin: 70px 20px;
-        }
-        .card-container {
-            margin: 40px auto;
-            flex-direction: column;
-        }
-        .card {
-            margin-top: 30px;
-        }
-        /* special section ends here */
-    }
+}
