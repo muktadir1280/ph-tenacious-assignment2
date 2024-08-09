@@ -489,7 +489,7 @@
         top: 83%;
         left: 10%;
     }
-    /* meet our team start here */
+    /* meet our team ends here */
     /* special section start here */
     
     .special-container {
@@ -795,4 +795,25 @@
             border-radius: 42px;
         }
         /* bmi section ends here */
+        /* meet our team start here */
+        .team-container {
+            margin-top: 70px;
+        }
+        .habits-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .habits-content p {
+            text-align: center;
+        }
+        .team-content {
+            margin: 50px 20px;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .team-card {
+            margin: 0px auto;
+        }
+        /* meet our team ends here */
     }
