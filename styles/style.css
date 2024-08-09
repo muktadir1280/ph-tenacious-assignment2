@@ -732,4 +732,35 @@
             margin-top: 10px;
         }
         /* /* habits end here */
+        /* run start here  */
+        .run-container {
+            display: flex;
+            flex-direction: column;
+            margin: 60px 20px 0px 20px;
+            height: auto;
+        }
+        .run-content {
+            padding: 45px 54px;
+        }
+        .run-content h2 {
+            font-size: 2rem;
+        }
+        .run-img {
+            display: block;
+            margin: 0px auto;
+            padding: 20px;
+        }
+        .run-img img {
+            width: 100%;
+            border-radius: 18px;
+        }
+        .run-content button {
+            margin-top: 35px;
+            font-size: 1.5rem;
+            font-weight: 600;
+            padding: 16px 85px;
+            border-radius: 42px;
+            line-height: 22px;
+        }
+        /* run ends here  */
     }
